@@ -1,0 +1,230 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Zilla Slab', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1620px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #E554731A;
+    overflow: hidden;
+}
+
+.banner-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-image {
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+}
+
+.banner-description p {
+    width: 500px;
+    padding: 40px 0px;
+}
+
+button {
+    color: #fff;
+    background: #E55473;
+    border: none;
+    padding: 20px 43px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.banner-description h1 {
+    font-size: 60px;
+}
+
+/* Features section */
+
+.features-section {}
+
+.section-inner {
+    padding: 150px 0;
+}
+
+.section-title {
+    max-width: 520px;
+    width: 100%;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.section-title h2 {
+    font-weight: 700;
+    line-height: 42px;
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 16px;
+}
+
+.section-title p {
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 18px;
+    color: #8d8d8d;
+}
+
+.section-content {
+    display: flex;
+    gap: 20px;
+}
+
+.section-content .item {
+    width: 33.30%;
+    text-align: center;
+}
+
+.section-content .wrapper {
+    text-align: center;
+    background: mediumseagreen;
+    padding-top: 120px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 544px;
+    overflow: hidden;
+}
+
+.section-content .item .wrapper.pink {
+    background: #ffd9e7bb;
+}
+
+.section-content .item .wrapper.mediumSlateBlue {
+    background: #c4e5e8bb;
+}
+
+.section-content .item .wrapper.mediumSeaGreen {
+    background: #c2e6bdbb;
+}
+
+.section-content .item h4 {
+    margin: 30px 0;
+    font-weight: 400;
+    line-height: 36px;
+    font-size: 28px;
+    color: #000;
+    text-decoration: underline;
+}
+
+.container-inner {
+    margin-top: 60px;
+    background: #ececec;
+    border-radius: 6px;
+    padding: 50px 150px;
+}
+
+.features-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/* hotdeal section */
+
+.hotdeal-section {}
+
+.hotdeal-section .section-inner {
+    background: #fff3f3;
+}
+
+.hotdeal-content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.hotdeal-content-wrapper .section-title {
+    margin: 0;
+}
+
+.hotdeal-content-wrapper .section-title p {
+    margin-bottom: 16px;
+}
+
+.hotdeal-content-wrapper .section-title h2 span {
+    color: #E55473;
+}
+
+/* instagram section */
+
+.instagram-section-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.instagram-section .container-inner {
+    background-image: url('/images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 128px;
+    padding-bottom: 128px;
+
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 16px 43px;
+    border: 0;
+    outline: none;
+    border-radius: 8px;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 18px;
+    color: #000;
+}
+
+/* footer */
+
+footer {}
+
+footer .section-inner {
+    background: #000;
+}
+
+footer .section-inner .section-title h2 {
+    color: #fff;
+}
+
+footer .section-inner .section-title h2 span{
+    color: #E55473;
+}
+
+footer .section-inner .section-title p {
+    color: #fff;
+    margin: 20px 0;
+}
+
+footer .section-inner .section-title p.text-mute {
+    color: gray;
+}
